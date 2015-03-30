@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		D12D1C4D1AC623080014155A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12D1C4C1AC623080014155A /* AppDelegate.swift */; };
 		D12D1C4F1AC623080014155A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12D1C4E1AC623080014155A /* ViewController.swift */; };
-		D12D1C521AC623080014155A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12D1C501AC623080014155A /* Main.storyboard */; };
 		D12D1C541AC623080014155A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12D1C531AC623080014155A /* Images.xcassets */; };
 		D12D1C571AC623080014155A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D12D1C551AC623080014155A /* LaunchScreen.xib */; };
 		D12D1C631AC623080014155A /* RdioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12D1C621AC623080014155A /* RdioTests.swift */; };
+		D12D1C721AC633940014155A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12D1C711AC633940014155A /* SWRevealViewController.m */; };
+		D12D1C751AC644200014155A /* RdioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12D1C741AC644200014155A /* RdioTableViewController.swift */; };
+		D1B18DED1AC90FBA0059E8FB /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B18DEC1AC90FBA0059E8FB /* FavoriteTableViewController.swift */; };
+		D1B18DF01AC914E30059E8FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B18DEE1AC914E30059E8FB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +33,17 @@
 		D12D1C4B1AC623080014155A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D12D1C4C1AC623080014155A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D12D1C4E1AC623080014155A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D12D1C511AC623080014155A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D12D1C531AC623080014155A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D12D1C561AC623080014155A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D12D1C5C1AC623080014155A /* RdioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RdioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12D1C611AC623080014155A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D12D1C621AC623080014155A /* RdioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RdioTests.swift; sourceTree = "<group>"; };
+		D12D1C6F1AC633930014155A /* Rdio-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rdio-Bridging-Header.h"; sourceTree = "<group>"; };
+		D12D1C701AC633940014155A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		D12D1C711AC633940014155A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		D12D1C741AC644200014155A /* RdioTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RdioTableViewController.swift; sourceTree = "<group>"; };
+		D1B18DEC1AC90FBA0059E8FB /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
+		D1B18DEF1AC914E30059E8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +85,15 @@
 		D12D1C491AC623080014155A /* Rdio */ = {
 			isa = PBXGroup;
 			children = (
+				D12D1C741AC644200014155A /* RdioTableViewController.swift */,
+				D12D1C731AC6339F0014155A /* SWRevealViewController */,
 				D12D1C4C1AC623080014155A /* AppDelegate.swift */,
+				D1B18DEE1AC914E30059E8FB /* Main.storyboard */,
 				D12D1C4E1AC623080014155A /* ViewController.swift */,
-				D12D1C501AC623080014155A /* Main.storyboard */,
 				D12D1C531AC623080014155A /* Images.xcassets */,
 				D12D1C551AC623080014155A /* LaunchScreen.xib */,
 				D12D1C4A1AC623080014155A /* Supporting Files */,
+				D1B18DEC1AC90FBA0059E8FB /* FavoriteTableViewController.swift */,
 			);
 			path = Rdio;
 			sourceTree = "<group>";
@@ -110,6 +121,16 @@
 				D12D1C611AC623080014155A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D12D1C731AC6339F0014155A /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D12D1C6F1AC633930014155A /* Rdio-Bridging-Header.h */,
+				D12D1C701AC633940014155A /* SWRevealViewController.h */,
+				D12D1C711AC633940014155A /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D12D1C521AC623080014155A /* Main.storyboard in Resources */,
+				D1B18DF01AC914E30059E8FB /* Main.storyboard in Resources */,
 				D12D1C571AC623080014155A /* LaunchScreen.xib in Resources */,
 				D12D1C541AC623080014155A /* Images.xcassets in Resources */,
 			);
@@ -212,8 +233,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1B18DED1AC90FBA0059E8FB /* FavoriteTableViewController.swift in Sources */,
+				D12D1C751AC644200014155A /* RdioTableViewController.swift in Sources */,
 				D12D1C4F1AC623080014155A /* ViewController.swift in Sources */,
 				D12D1C4D1AC623080014155A /* AppDelegate.swift in Sources */,
+				D12D1C721AC633940014155A /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,20 +260,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D12D1C501AC623080014155A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D12D1C511AC623080014155A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D12D1C551AC623080014155A /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D12D1C561AC623080014155A /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		D1B18DEE1AC914E30059E8FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1B18DEF1AC914E30059E8FB /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,9 +360,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Rdio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rdio/Rdio-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +373,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Rdio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rdio/Rdio-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +434,7 @@
 				D12D1C681AC623080014155A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D12D1C691AC623080014155A /* Build configuration list for PBXNativeTarget "RdioTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +443,7 @@
 				D12D1C6B1AC623080014155A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
