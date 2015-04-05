@@ -8,53 +8,70 @@
 
 import UIKit
 
-class RdioTableViewController: UITableViewController, UITableViewDelegate {
+class RdioTableViewController: UITableViewController {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
-
+    var counter = 0
     
     var cellContent = ["Radio A","Radio B","Radio C","Radio D","Radio E"]
-    
+    var arr = []
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
             menuButton.action = "revealToggle:"
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
         self.revealViewController().rearViewRevealWidth = 200
-
+        let path = NSBundle.mainBundle().pathForResource("ecuador", ofType: "plist") as String?
+        arr = NSArray(contentsOfFile: path!)!
         
     }
-    
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return cellContent.count
-    }
-    
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
-        let cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "Cell")
-        cell.textLabel?.text = cellContent[indexPath.row]
-        
-        return cell
-        
-    }
-    
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        println(cellContent[indexPath.row])
-        
-    }
-    
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+    // MARK: - Segues
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+
+        if segue.identifier == "showDetail"
+        {
+            if let indexPath = self.tableView.indexPathForSelectedRow() {
+                var dict = arr[indexPath.row] as NSDictionary
+                
+                (segue.destinationViewController as RdioDetailViewController).name = dict["name"] as NSString
+                (segue.destinationViewController as RdioDetailViewController).icon = dict["icon"] as NSString
+            }
+        }
+    }
+    
+    // MARK: - Tables
+    
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return arr.count
+    }
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
+
+        
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
+        // add title
+        var dict = arr[indexPath.row] as NSDictionary
+        cell.textLabel!.text = dict["name"] as NSString
+        // add image
+        let url = NSURL(string: dict["icon"] as NSString)
+        let data = NSData(contentsOfURL: url!)
+        let image = UIImage(data: data!)
+        cell.imageView?.image = image
+        return cell
+        
+    }
+
+
+
+   
     
 }

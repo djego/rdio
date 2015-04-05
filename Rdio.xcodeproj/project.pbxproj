@@ -14,6 +14,8 @@
 		D12D1C631AC623080014155A /* RdioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12D1C621AC623080014155A /* RdioTests.swift */; };
 		D12D1C721AC633940014155A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12D1C711AC633940014155A /* SWRevealViewController.m */; };
 		D12D1C751AC644200014155A /* RdioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12D1C741AC644200014155A /* RdioTableViewController.swift */; };
+		D14E80CA1ACBB1BC0020FBC7 /* RdioDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14E80C91ACBB1BC0020FBC7 /* RdioDetailViewController.swift */; };
+		D1A473251AD0A50E00CE3742 /* ecuador.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1A473241AD0A50E00CE3742 /* ecuador.plist */; };
 		D1B18DED1AC90FBA0059E8FB /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B18DEC1AC90FBA0059E8FB /* FavoriteTableViewController.swift */; };
 		D1B18DF01AC914E30059E8FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B18DEE1AC914E30059E8FB /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -42,6 +44,8 @@
 		D12D1C701AC633940014155A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		D12D1C711AC633940014155A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		D12D1C741AC644200014155A /* RdioTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RdioTableViewController.swift; sourceTree = "<group>"; };
+		D14E80C91ACBB1BC0020FBC7 /* RdioDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RdioDetailViewController.swift; sourceTree = "<group>"; };
+		D1A473241AD0A50E00CE3742 /* ecuador.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ecuador.plist; sourceTree = "<group>"; };
 		D1B18DEC1AC90FBA0059E8FB /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
 		D1B18DEF1AC914E30059E8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,13 +89,15 @@
 		D12D1C491AC623080014155A /* Rdio */ = {
 			isa = PBXGroup;
 			children = (
-				D12D1C741AC644200014155A /* RdioTableViewController.swift */,
 				D12D1C731AC6339F0014155A /* SWRevealViewController */,
+				D12D1C741AC644200014155A /* RdioTableViewController.swift */,
+				D14E80C91ACBB1BC0020FBC7 /* RdioDetailViewController.swift */,
+				D12D1C4E1AC623080014155A /* ViewController.swift */,
 				D12D1C4C1AC623080014155A /* AppDelegate.swift */,
 				D1B18DEE1AC914E30059E8FB /* Main.storyboard */,
-				D12D1C4E1AC623080014155A /* ViewController.swift */,
 				D12D1C531AC623080014155A /* Images.xcassets */,
 				D12D1C551AC623080014155A /* LaunchScreen.xib */,
+				D1A473241AD0A50E00CE3742 /* ecuador.plist */,
 				D12D1C4A1AC623080014155A /* Supporting Files */,
 				D1B18DEC1AC90FBA0059E8FB /* FavoriteTableViewController.swift */,
 			);
@@ -215,6 +221,7 @@
 			files = (
 				D1B18DF01AC914E30059E8FB /* Main.storyboard in Resources */,
 				D12D1C571AC623080014155A /* LaunchScreen.xib in Resources */,
+				D1A473251AD0A50E00CE3742 /* ecuador.plist in Resources */,
 				D12D1C541AC623080014155A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +245,7 @@
 				D12D1C4F1AC623080014155A /* ViewController.swift in Sources */,
 				D12D1C4D1AC623080014155A /* AppDelegate.swift in Sources */,
 				D12D1C721AC633940014155A /* SWRevealViewController.m in Sources */,
+				D14E80CA1ACBB1BC0020FBC7 /* RdioDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

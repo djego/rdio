@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s13886q.png</string>
+		<key>description</key>
+		<string>Radio Caravana 750 (Spanish Talk)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>Radio Caravana 750 (Spanish Talk)</string>
+		<key>url</key>
+		<string>http://streamingecuador.net:9300</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s174170q.png</string>
+		<key>description</key>
+		<string>Radio Ecua Ambato (Cumbia)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>Radio Ecua Ambato (Cumbia)</string>
+		<key>url</key>
+		<string>http://eu3.fastcast4u.com:5492/</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s198406q.png</string>
+		<key>description</key>
+		<string>RADIO ECUA MODA MIX (Cumbia)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>RADIO ECUA MODA MIX (Cumbia)</string>
+		<key>url</key>
+		<string>http://37.187.79.56:10870/</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s133348q.png</string>
+		<key>description</key>
+		<string>Diblu FM 88.9 (Sports Talk)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>Diblu FM 88.9 (Sports Talk)</string>
+		<key>url</key>
+		<string>http://streamingecuador.net:9302/</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s200389q.png</string>
+		<key>description</key>
+		<string>ECUA AMBATO CHICHERA (Cumbia)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>ECUA AMBATO CHICHERA (Cumbia)</string>
+		<key>url</key>
+		<string>http://radio.freeshoutcast.com:8946/</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s95445q.png</string>
+		<key>description</key>
+		<string>Radio Tropicalida Ecuador 91.3 (Spanish Music)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>Radio Tropicalida Ecuador 91.3 (Spanish Music)</string>
+		<key>url</key>
+		<string>http://makrodigital.com:8034/Radio_Tropicalida</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s18591q.png</string>
+		<key>description</key>
+		<string>America Estereo Radio (Quito) 104.5 (Spanish Music)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>America Estereo Radio (Quito) 104.5 (Spanish Music)</string>
+		<key>url</key>
+		<string>http://makrodigital.com:8140/America_Quito</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s13845q.png</string>
+		<key>description</key>
+		<string>CRE Satelital Ecuador 95.5 (Spanish Talk)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>CRE Satelital Ecuador 95.5 (Spanish Talk)</string>
+		<key>url</key>
+		<string>http://ecuastream.com:9022</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s68608q.png</string>
+		<key>description</key>
+		<string>Radio América Estereo (Guayaquil) 93.3 (Top 40/Pop)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>Radio América Estereo (Guayaquil) 93.3 (Top 40/Pop)</string>
+		<key>url</key>
+		<string>http://makrodigital.net:9058/</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s17601q.png</string>
+		<key>description</key>
+		<string>JC Radio La Bruja 107.3 (Top 40/Pop)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>JC Radio La Bruja 107.3 (Top 40/Pop)</string>
+		<key>url</key>
+		<string>http://176.31.246.109:11000</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s49992q.png</string>
+		<key>description</key>
+		<string>Radio Maria (Ecuador) 100.1 (Catholic Talk)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>Radio Maria (Ecuador) 100.1 (Catholic Talk)</string>
+		<key>url</key>
+		<string>http://50.7.181.186:8070</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s16363q.png</string>
+		<key>description</key>
+		<string>Radio Sucre 700 (Spanish Talk)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>Radio Sucre 700 (Spanish Talk)</string>
+		<key>url</key>
+		<string>http://streamingecuador.net:9316</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s123400q.png</string>
+		<key>description</key>
+		<string>Radio Ambato 930 (Spanish Talk)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>Radio Ambato 930 (Spanish Talk)</string>
+		<key>url</key>
+		<string>http://190.99.72.142:8000/radioambato</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s16255q.png</string>
+		<key>description</key>
+		<string>Radio La Red 102.1 (Sports Talk)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>Radio La Red 102.1 (Sports Talk)</string>
+		<key>url</key>
+		<string>http://200.105.233.4:1050/</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s198728q.png</string>
+		<key>description</key>
+		<string>Radio Moda Ecuador HD (Cumbia)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>Radio Moda Ecuador HD (Cumbia)</string>
+		<key>url</key>
+		<string>http://eu1.fastcast4u.com:10870/</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s105253q.png</string>
+		<key>description</key>
+		<string>Los 40 Principales (Quito) 97.7 (Top 40/Pop)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>Los 40 Principales (Quito) 97.7 (Top 40/Pop)</string>
+		<key>url</key>
+		<string>http://makrodigital.net:9038/</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s121477q.png</string>
+		<key>description</key>
+		<string>Radio Zaracay 100.5 (Pop Latino)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>Radio Zaracay 100.5 (Pop Latino)</string>
+		<key>url</key>
+		<string>http://190.90.241.254:8000/zradiomp3</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s118586q.png</string>
+		<key>description</key>
+		<string>Radio Galaxia 88.5 (Reggaeton)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>Radio Galaxia 88.5 (Reggaeton)</string>
+		<key>url</key>
+		<string>http://makrodigital.com:8282/Radio_Galaxia</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s105894q.png</string>
+		<key>description</key>
+		<string>Complice FM 99.7 (Spanish Music)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>Complice FM 99.7 (Spanish Music)</string>
+		<key>url</key>
+		<string>http://makrodigital.com:8258/Radio_Complice</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s111123q.png</string>
+		<key>description</key>
+		<string>Fabu 105.7 (Love Songs)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>Fabu 105.7 (Love Songs)</string>
+		<key>url</key>
+		<string>http://streaming-aacplus.com:8269/Radio_Fabu</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s13862q.png</string>
+		<key>description</key>
+		<string>Alfa Radio 104.1 (Top 40/Pop)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>Alfa Radio 104.1 (Top 40/Pop)</string>
+		<key>url</key>
+		<string>http://makrodigital.com:8002/Radio_Alfa</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s231189q.png</string>
+		<key>description</key>
+		<string>Radio Cañar Stereo</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>Radio Cañar Stereo</string>
+		<key>url</key>
+		<string>http://ecuastreaming.enhd.co:8727</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s176569q.png</string>
+		<key>description</key>
+		<string>La Otra FM (Quito) 91.3 (Spanish Music)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>La Otra FM (Quito) 91.3 (Spanish Music)</string>
+		<key>url</key>
+		<string>http://38.96.148.217:8090</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s131267q.png</string>
+		<key>description</key>
+		<string>Área Deportiva Ecuador 94.5 (Rumba)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>Área Deportiva Ecuador 94.5 (Rumba)</string>
+		<key>url</key>
+		<string>http://radio.uncuartocomunicacion.com:8020/areadeportiva945mp3</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>http://d1i6vahw24eb07.cloudfront.net/s59649q.png</string>
+		<key>description</key>
+		<string>Radio Quito 760 (Spanish Talk)</string>
+		<key>quality</key>
+		<string>360p</string>
+		<key>name</key>
+		<string>Radio Quito 760 (Spanish Talk)</string>
+		<key>url</key>
+		<string>http://audiohostingecuador.net:7006</string>
+	</dict>
+</array>
+</plist>
